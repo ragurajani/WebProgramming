@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Info Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="top">
+        <header>
+            <h1>Contact Us</h1>
+            <p>Please complete the information below. Fields marked with <span class="required">*</span> are
+                requiredfields</P>
+
+        </header>
+    </div>
+    
+    <div id="data">
+        
+
+        <form method="post" action="mailto:ragurajani@gmail.com">
+
+            <fieldset>
+
+                <legend class="leg"> Your Data </legend>
+
+                <label for="first_name">First Name <span class="required">*</span></label>
+                <input type="text" id="first_name" name="first_name" class="large" required="required"
+                    placeholder="Enter your first name" /><br><br>
+
+                <label for="last_name">Last Name <span class="required">*</span></label>
+                <input type="text" id="last_name" name="last_name" class="large" required="required"
+                    placeholder="Enter your last name" /><br><br>
+
+                <label for="street_address">Street Address <span class="required">*</span></label>
+                <input type="text" id="street_address" name="street_address" class="large" required="required"
+                    placeholder="Enter your Street Address" /><br><br>
+
+                <label for="city">City <span class="required">*</span></label>
+                <input type="text" id="city" name="city" class="large" required="required"
+                    placeholder="Enter your City name" /><br><br>
+
+                <label for="province">Province <span class="required">*</span></label>
+                <select name="province" id="province" class="large" required="required">
+                    <option disabled selected value=""> Enter a Province</option>
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New BrunswickB</option>
+                    <option value="NF">Newfoundland and Labrador</option>
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="QC">Quebec</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="YT">Yukon</option>
+                </select><br><br>
+
+                <label for="postalcode">Postal Code <span class="required">*</span></label>
+                <input type="text" id="postalcode" name="postalcode" class="large" required="required"
+                    placeholder="Enter your Postal Code" /><br><br>
+
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="large" required="required"
+                    placeholder="Enter your Email Address"><br><br>
+
+                <label for="phone">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="phone" name="phone" class="large" required="required"
+                    placeholder="Enter your Phone number" maxlength="10"><br><br>
+
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend class="leg">Agreement</legend>
+
+                <input type="checkbox" id="agreement" name="agreement" class="large" value="Accept" required="required">
+                <label for="agreement"> Accept Agreement</label><br><br>
+
+                <input type="reset" value="Clear">
+                <input type="submit" value="Submit">
+                
+                <p> Click here to find out more about me <a href="aboutme.html"> aboutme.html</a></p>
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+/*Universal selector*/
+
+
+/*Type selector*/
+span {
+	background-color:purple;
+	color: lightseagreen;
+  }
+
+/*Class selector*/
+.large {
+background-color:wheat;
+}
+
+/*Class selector*/
+.leg{
+	text-align: center;
+}
+
+em {
+	  color:royalblue;
+	  background-color: yellow;
+  }
+ th {
+	 color:darkviolet;
+	 background-color: lavender;
+ }
+
+ td{
+	 color:indigo;
+	 background-color:lavender ;
+ }
+
+ td[rowspan="2"] {
+	 color: red;
+ }
+
+ td[rowspan="3"] {
+	color:magenta;
+	}
+
+ title {
+	color:blueviolet;
+ }
+
+/*ID selector*/
+ 
+ #data
+  {
+	 background-color: slategrey;
+ }
+   
+ #top
+  {
+   background-image: url(about.jpg);
+   background-color:slategray;
+	 margin-top: 15px;
+	 padding-top: 10px;
+	 border: black;
+	 width: 1000px;
+	 margin-left: auto;
+	 margin-right: auto;
+	
+ }
+
+ h1
+ {
+   text-align: center;
+ }
+
+ fieldset {
+	 margin-top: 4px;
+	 background-color:lightpink;
+ }
+
+ legend {
+	 color:maroon;
+	 background-color: #ccadbe;
+	 border: 1px solid #72072e;
+	 padding: 3px;
+	 font-weight: bold;
+ }
+
+ table {
+	 margin: 4px;
+	 padding: 4px;
+	 border:violet 40px;
+	 
+ }
+
+ 
+ td {
+	 padding: 2px;
+ }
+
+ .required {
+	color:#ffa600; 
+ }
+
+ #data fieldset{
+		padding-left: 8px;
+ }
+
+ .bg{
+   background-color: blueviolet;
+ }
+
+
+#myOL>li>a {
+    border:grey, 1px;    
+  }  
+  
+#myOL li a:hover:not(.header) {
+    background-color:black; /* Add a hover effect to all links, except for headers */
+  }
